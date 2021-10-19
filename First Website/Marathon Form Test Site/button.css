@@ -1,0 +1,26 @@
+body {
+    font-family: 'Robot', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #151b29;
+}
+
+button {
+    background: none;
+    color: #ffffff;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: all 0.25s;
+}
+
+button:hover {
+    border-color: #00fff2;
+    color: #00fff2;
+    box-shadow: 0 0.5em 0.5em -0.4em #00fff2;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}

@@ -1,0 +1,141 @@
+<html>
+    <head>
+        <style>
+            .background_green#my_id_for_body {
+                background-color: violet;
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .background_green {
+                background-color: green;
+            }
+            .half_opacity {
+                opacity: 0.5;
+            }
+            .background_yellow {
+                background-color: yellow;
+            }
+            .background_red {
+                background-color: red;
+            }
+            [johnny] {
+                background-color: orange;
+            }
+            [johnny=brown_hair] {
+                transform: skew(30deg, 20deg);
+            }
+            [johnny]#paragraph {
+                color: cyan;
+            }
+            img {
+                border: 100px dashed red;
+            }
+            body > *:first-child {
+            transform: rotate(50deg);
+            }
+        </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, intitial-scale=1">
+    <title>VSCode Testing</title>
+    
+</head>
+
+
+
+<body id="my_id_for_body" class="background_green" >
+<p>Helloooo</p>
+    <div id="top_left_square" class="half_opacity background_yellow" style="
+    flex-basis: 50%;
+">
+        <div style="
+        background-color: red;
+        /* overflow: hidden; */
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        ">
+            <img style="width: 120px;height: 120px;border: 5px solid black;border-radius: 50%;" border="0" src="./sunshine_sample_logo.png">
+        </div>
+        <h1 style="display:inline;margin-left: 20px;margin-top: 40px;">VSCode Testing</h1>
+        <br>
+
+    <h2 id="header_name" class="half_opacity background_red" johnny="tall">Website test, VSCode</h2>
+    <img style="width: 120px;height: 120px;border: 5px solid black;border-radius: 50%;" border="0" src="./sunshine_sample_logo.png">
+    <hr>
+    </div>
+    
+    <div id="top_right_square" style="
+    flex-basis: 50%;
+"><p id="paragraph" johnny="brown_hair">Duis mi ligula, finibus eget ex pretium, malesuada fringilla lectus. Pellentesque mi orci, tincidunt vel
+        molestie ac, vulputate ut ante. Duis quis eros lacus. Phasellus auctor, quam vel elementum ullamcorper, enim
+        tortor consectetur urna, eget consequat nisi leo non lacus. Nulla facilisi. Donec id molestie nisl, a
+        commodo libero. Etiam imperdiet felis orci, id egestas eros tempor et. Donec sodales turpis at dui commodo,
+        in sollicitudin augue vestibulum. Sed congue bibendum condimentum. Phasellus iaculis pharetra consectetur.
+        Integer bibendum vitae purus sit amet sodales. Sed ut bibendum libero. Cras non sem quis quam ultrices
+        tincidunt id nec purus.
+
+        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+        Nemo
+        enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+        eos
+        qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+        consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam
+        aliquam
+        quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit
+        laboriosam,
+        nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+        esse
+        quam nihil molestiae consequatur, <a href="https://roperite.bandcamp.com/" target="_blank">vel illum qui
+            dolorem</a> eum fugiat quo voluptas nulla pariatur?</p></div>
+    <div id="bottom_left_square" style="
+    flex-basis: 50%;
+"><p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+        ullamco
+        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+        esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+        officia
+        deserunt mollit anim id est laborum.
+        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti
+        atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique
+        sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum
+        facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
+        impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor
+        repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et
+        voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus,
+        ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+        Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque eu massa a sem laoreet bibendum sed ut
+        nibh. Donec quis nunc euismod, dictum lectus a, laoreet dolor. Sed quis lorem eu ligula mattis blandit.
+        Quisque commodo tristique eros commodo placerat. Cras quis consequat tortor, vitae maximus mi. Vivamus
+        pharetra ullamcorper nibh, et commodo lacus. Suspendisse potenti. Maecenas interdum, dolor sit amet
+        sollicitudin ornare, enim mi rhoncus ipsum, et tempus arcu augue non metus. Morbi facilisis, nunc et
+        imperdiet ultrices, nisi sapien dictum nisl, ornare vehicula ipsum neque id mi. Phasellus vehicula erat at
+        volutpat ullamcorper. Nullam laoreet risus nec nunc finibus vehicula. Ut gravida vehicula facilisis. Proin
+        ac metus eget tellus aliquam viverra a vitae dui.
+    </p></div>
+    <div id="bottom_right_square" style="
+    flex-basis: 50%;
+"><div style="
+        display: flex;
+        align-items: center;
+    "> <img src="https://f4.bcbits.com/img/a2606210865_2.jpg" border="10" height="500px" width="500px"></div></div>
+    
+
+
+        
+            
+            
+
+            
+
+           
+        
+
+
+
+</body></html>
